@@ -1,0 +1,27 @@
+# venv / IDE
+.venv/
+venv/
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+service_account.json
+*.pem
+*.p12
+*.key
+
+# Chrome profiles / logs
+chrome-*/
+*chromedriver*.log
+*.log
+
+# Local data outputs
+input_products.csv
+output_products.csv
